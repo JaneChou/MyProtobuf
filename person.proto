@@ -1,0 +1,9 @@
+package JZApp;
+
+message Person
+{
+	required string id   = 1;
+	required string name = 2;
+	required string addr = 3;
+	required string test = 1000;
+}
